@@ -3,6 +3,105 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial;
+  font-family: Outfit;
+  font-weight: 400;
+}
+
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-color: #0d192b;
+  color: white;
+  font-family: Outfit;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: #14253d;
+  padding: 20px;
+  width: 340px;
+}
+
+.card .cardTitle {
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.card .nftImage {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.card .cardDesc {
+  color: #8bacda;
+  margin-bottom: 20px;
+}
+
+.card .cardDescMore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.card .cardDescMore .etheriumCost, .card .cardDescMore .timeLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7px;
+}
+
+.card .cardDescMore .etheriumCost {
+  color: #00fff7;
+}
+
+.card .cardDescMore .timeLeft {
+  color: #8bacda;
+}
+
+.card .authorInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  color: #8bacda;
+  font-size: 200px;
+  border-top: 1px solid #8bacda;
+  padding-top: 15px;
+  font-size: 16px;
+}
+
+.card .authorInfo .avatar {
+  border: 0.1px solid white;
+  border-radius: 50%;
+  height: 32px;
+}
+
+.card .authorInfo .authorName {
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */

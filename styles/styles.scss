@@ -5,5 +5,87 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial;
+  font-family: Outfit;
+  font-weight: 400;
+}
+
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-color: $darkBlueMainBg;
+  color: $white;
+  font-family: Outfit;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: $darkBlueCardBg;
+  padding: 20px;
+  width: 340px;
+  
+  .cardTitle {
+    color: $white;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .nftImage {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .cardDesc {
+    color: $softBlue;
+    margin-bottom: 20px;
+  }
+  
+  .cardDescMore {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 16px;
+
+    .etheriumCost, .timeLeft {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .etheriumCost {
+      color: $cyan;
+    }
+
+    .timeLeft {
+      color: $softBlue;
+    }
+  }
+  
+  .authorInfo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: $softBlue;
+    font-size: 200px;
+    border-top: 1px solid $softBlue;
+    padding-top: 15px;
+    font-size: 16px;
+    
+    .avatar {
+      border: 0.1px solid $white;
+      border-radius: 50%;
+      height: 32px;
+    }
+    
+    .authorName {
+      color: $white;
+    }
+  }
+  
 }
