@@ -27,6 +27,10 @@
   background-color: $darkBlueCardBg;
   padding: 20px;
   width: 340px;
+
+  @include mobile {
+    width: 260px;
+  }
   
   .cardTitle {
     color: $white;

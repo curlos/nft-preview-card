@@ -33,6 +33,12 @@
   width: 340px;
 }
 
+@media screen and (max-width: 375px) {
+  .card {
+    width: 260px;
+  }
+}
+
 .card .cardTitle {
   color: white;
   font-weight: 600;
