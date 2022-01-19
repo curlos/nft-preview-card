@@ -11,8 +11,9 @@
 
 .mainContainer {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   max-width: 100%;
+  padding: 20px;
   background-color: $darkBlueMainBg;
   color: $white;
   font-family: Outfit;
